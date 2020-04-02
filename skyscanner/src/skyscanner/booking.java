@@ -33,9 +33,7 @@ public class booking {
 		// using chrome driver and set window property to be maximum
 		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
         driver.manage().window().maximize();
-        driver.get(url);
-    
-        
+        driver.get(url); 
 	}
 	
 	@Test
